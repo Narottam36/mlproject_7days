@@ -6,6 +6,8 @@ Local reference : E:\Learning\Krish_projects\mlproject_7days_projects
 
 
 Python setup.py file::
+https://www.geeksforgeeks.org/what-is-setup-py-in-python/
+
 
 In Python, setup.py is a module used to build and distribute Python packages. It typically contains information about the package, such as its name, version, and dependencies, as well as instructions for building and installing the package. This information is used by the pip tool, which is a package manager for Python that allows users to install and manage Python packages from the command line. By running the setup.py file with the pip tool, you can build and distribute your Python package so that others can use it.
 
@@ -37,5 +39,7 @@ setup(
 
 Here, the setup function is called with several arguments that provide information about the package. The name and version arguments specify the package name and version, while the description and author arguments provide a brief description of the package and the author’s name. The author_email argument specifies the author’s email address, and the packages argument indicates which packages should be included in the distribution. Finally, the install_requires argument specifies the package dependencies, which are other packages that must be installed in order for the my_package package to work properly.
 
-		  
+To use the setup.py file in Python, you first need to have the setuptools module installed. You can do this by running the following command:
+
+pip install setuptools		  
 		  
