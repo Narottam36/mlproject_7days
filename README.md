@@ -41,5 +41,30 @@ Here, the setup function is called with several arguments that provide informati
 
 To use the setup.py file in Python, you first need to have the setuptools module installed. You can do this by running the following command:
 
-pip install setuptools		  
+pip install setuptools	
+
+
+### Video 2: Exception and logger
+File: exception.py
+https://docs.python.org/3/tutorial/errors.html
+https://www.tutorialspoint.com/python/python_exceptions.htm#:~:text=What%20is%20Exception%3F,object%20that%20represents%20an%20error.
+
+Example
+This example tries to open a file where you do not have write permission, so it raises an exception −
+
+# Code
+#!/usr/bin/python
+
+try:
+   fh = open("testfile", "r")
+   fh.write("This is my test file for exception handling!!")
+except IOError:
+   print "Error: can\'t find file or read data"
+else:
+   print "Written content in the file successfully"
+This produces the following result −
+
+# Error: can't find file or read data
+
+
 		  
